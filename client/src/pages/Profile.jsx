@@ -94,14 +94,14 @@ export default function Profile() {
         return;
       }
       dispatch(deleteUserSuccess(data));
-    } catch (error) {
+    } catch (error) {  
       dispatch(deleteUserFailure(error));
     }
   };
 
   const handleSignOut =() =>{
     try{
-await fetch('/api/user')
+awaitfetch('/api/user')
     }
     catch(error){
 
